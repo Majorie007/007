@@ -24,6 +24,23 @@
     padding: 5px;
     box-shadow: 5px 5px 20px  rgba(3, 3, 114, 0.3); 
 }
+@media (max-width: 576px) {
+    .form-group label {
+        text-align: center;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        margin: 0 auto;
+        display: block;
+        width: 100%;
+    }
+
+    .form-group button {
+        display: block;
+        margin: 0 auto;
+    }
+}
 /* Aangepaste stijlen voor de navigatieknoppen */
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff; /* Tekstkleur van de knoppen */

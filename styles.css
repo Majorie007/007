@@ -27,7 +27,7 @@
 @media (max-width: 576px) {
     .form-group label {
         text-align: center;
-        width: 50px;
+        width: 50%;
     }
 
     .form-group input,

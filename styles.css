@@ -137,3 +137,16 @@ input[type="text"], input[type="email"], textarea, select, button{
     padding: 75%;
     margin: 10px;
   }
+/* Aangepaste stijlen voor de tekstvakken in het accordeon */
+.accordion-button b {
+    font-size: 18px; /* Maakt de tekst kleiner */
+    text-align: left; /* Uitlijning van de tekst */
+    width: 100%; /* Volledige breedte van de tekst */
+}
+
+/* Kader om de tekstvakken in het accordeon */
+.accordion-body {
+    border: 1px solid #ccc; /* Kaderkleur en -dikte */
+    padding: 10px; /* Ruimte binnen het kader */
+    border-radius: 5px; /* Afgeronde hoeken van het kader */
+}

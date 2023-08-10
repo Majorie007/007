@@ -27,13 +27,14 @@
 @media (max-width: 576px) {
     .form-group label {
         text-align: center;
+        width: 50px;
     }
 
     .form-group input,
     .form-group textarea {
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width: 75%;
     }
 
     .form-group button {

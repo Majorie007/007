@@ -147,7 +147,7 @@ position: center;
 width: 75%;
 position: center;
 }
-#Verzenden {
+#button{
     width: 70px; /* Pas de breedte aan zoals gewenst */
     height: 30px; /* Pas de hoogte aan zoals gewenst */
     font-size: 14px; /* Pas de lettergrootte aan zoals gewenst */

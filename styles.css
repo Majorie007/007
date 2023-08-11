@@ -33,8 +33,7 @@
     width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
 }
      .form-group input,
-    .form-group textarea 
-    .form-group: button{
+    .form-group textarea{
         margin: 0 auto;
         display: block;
         width: 100%;
@@ -131,11 +130,7 @@ input[type="text"], input[type="email"], textarea, select, button{
     margin: 20px;
     padding: 20px;
   }
-  ,div class="form-group"{
-    padding: 75%;
-    margin: 10px;
-  }
- #name {
+#name {
     width: 75%;
     position: center;
 }
@@ -148,7 +143,7 @@ width: 75%;
 position: center;
 }
 .col-md-4 img {
-    width: 100%; /* Afbeeldingen worden 100% breedte van de kolom */
+    width: 30%; /* Afbeeldingen worden 100% breedte van de kolom */
     height: auto; /* Behoudt de juiste beeldverhouding */
     display: block; /* Voorkomt extra verticale ruimte onder de afbeelding */
     margin-bottom: 10px; /* Voeg wat ruimte toe tussen de afbeeldingen */

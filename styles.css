@@ -30,7 +30,16 @@
         width: 100%;
     }
 .form-group input#name {
-    width: 50%;
+    width: 75%;
+}
+.form-group input#email {
+    width: 75%;
+}
+.form-group input#Bericht {
+    width: 75%;
+}
+.form-group input#Verzenden {
+    width: 75%;
 }
     .form-group input,
     .form-group textarea 

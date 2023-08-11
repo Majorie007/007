@@ -32,7 +32,7 @@
 
     .form-group input,
     .form-group textarea 
-    .form-group: button{
+    .form-group button{
         margin: 0 auto;
         display: block;
         width: 100%;
@@ -129,11 +129,7 @@ input[type="text"], input[type="email"], textarea, select, button{
     margin: 20px;
     padding: 20px;
   }
-  ,div class="form-group"{
-    padding: 75%;
-    margin: 10px;
-  }
- #name {
+#name {
     width: 75%;
     position: center;
 }

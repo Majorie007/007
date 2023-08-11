@@ -25,9 +25,7 @@
     box-shadow: 5px 5px 20px  rgba(3, 3, 114, 0.3); 
 }
 @media (max-width: 576px) {
-    .form-group label,
-    .form-group input,
-    .form-group textarea{
+    .form-group label{
         text-align: center;
         width: 100%;
     }

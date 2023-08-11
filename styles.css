@@ -37,13 +37,16 @@
         width: 100%;
     }
     #name {
-    width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
+    width: 75%;
+    position: center;
 }
 #email{
 width: 75%;
+position: center;
 }
 #Bericht{
 width: 75%;
+position: center;
 }
 #Verzenden{
 width: 75%;

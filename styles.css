@@ -29,6 +29,7 @@
         text-align: center;
         width: 100%;
     }
+
     .form-group input,
     .form-group textarea 
     .form-group: button{
@@ -156,4 +157,3 @@ input[type="text"], input[type="email"], textarea, select, button{
     border: 1px solid #ccc; /* Kaderkleur en -dikte */
     padding: 10px; /* Ruimte binnen het kader */
     border-radius: 5px; /* Afgeronde hoeken van het kader */
-}

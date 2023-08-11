@@ -145,14 +145,19 @@ position: center;
 width: 75%;
 position: center;
 }
-/* Aangepaste stijlen voor de tekstvakken in het accordeon */
-.accordion-button b {
+.custom-button {
+    font-size: 14px; /* Pas de gewenste grootte aan */
+    padding: 5px 10px; /* Pas de gewenste padding aan */
+    border-radius: 5px; /* Pas de gewenste afgeronde hoeken aan */
+    /* Voeg andere stijlen toe indien nodig */
+}
+ .accordion-button b {
     font-size: 18px; /* Maakt de tekst kleiner */
     text-align: left; /* Uitlijning van de tekst */
     width: 100%; /* Volledige breedte van de tekst */
 }
 
-/* Kader om de tekstvakken in het accordeon */
+ 
 .accordion-body {
     border: 1px solid #ccc; /* Kaderkleur en -dikte */
     padding: 10px; /* Ruimte binnen het kader */

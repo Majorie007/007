@@ -147,6 +147,12 @@ position: center;
 width: 75%;
 position: center;
 }
+.col-md-4 img {
+    width: 100%; /* Afbeeldingen worden 100% breedte van de kolom */
+    height: auto; /* Behoudt de juiste beeldverhouding */
+    display: block; /* Voorkomt extra verticale ruimte onder de afbeelding */
+    margin-bottom: 10px; /* Voeg wat ruimte toe tussen de afbeeldingen */
+}
 #button{
     width: 70px; /* Pas de breedte aan zoals gewenst */
     height: 30px; /* Pas de hoogte aan zoals gewenst */

@@ -36,6 +36,18 @@
         display: block;
         width: 100%;
     }
+    #name {
+    width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
+}
+#email{
+width: 75%;
+}
+#bericht{
+width: 75%;
+}
+#verzenden{
+width: 75%;
+}    
 }
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff; /* Tekstkleur van de knoppen */

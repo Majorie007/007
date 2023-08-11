@@ -94,14 +94,43 @@ footer {
     align-items: center;
     max-width: 100%;
     }
+input[type="text"], input[type="email"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 500px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 2px 2px 5px purple;
+    }
+textarea{
+        height: 150px;
+        padding: 5px 4px;
+    }
+#accordionExample .accordion-button {
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+  }
+#accordionExample .accordion-button:focus {
+    box-shadow: none;
+  }
+#accordionExample .accordion-button:not(.collapsed) {
+    background-color: purple;
+  }
+#accordionExample .accordion-header {
+    background-color: transparent;
+  }
+#accordionExample .accordion-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+  }
 .li class{
     background-color: green;
     border-radius: 15px;
     box-shadow: 5px 5px 10px rgba (4, 4, 114, 0.5);
-}
-#NAME="Verzenden"{
-    width: 80px;
-    height: 80px;
 }
 input[type="text"], input[type="email"], textarea, select, button{
     display: block;

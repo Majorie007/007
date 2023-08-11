@@ -29,8 +29,10 @@
         text-align: center;
         width: 100%;
     }
-
-    .form-group input,
+    .form-group input#name {
+    width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
+}
+     .form-group input,
     .form-group textarea 
     .form-group: button{
         margin: 0 auto;

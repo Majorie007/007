@@ -27,19 +27,15 @@
 @media (max-width: 576px) {
     .form-group label {
         text-align: center;
-        width: 50%;
+        width: 100%;
     }
 
     .form-group input,
-    .form-group textarea {
+    .form-group textarea 
+    .form-group: button{
         margin: 0 auto;
         display: block;
-        width: 75%;
-    }
-
-    .form-group button {
-        display: block;
-        margin: 0 auto;
+        width: 100%;
     }
 }
 .navbar-dark .navbar-nav .nav-link {

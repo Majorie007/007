@@ -145,11 +145,6 @@ position: center;
 width: 75%;
 position: center;
 }
-button {
-        font-size: 14px;
-        padding: 5px 10px;
-    }
-}
 /* Aangepaste stijlen voor de tekstvakken in het accordeon */
 .accordion-button b {
     font-size: 18px; /* Maakt de tekst kleiner */

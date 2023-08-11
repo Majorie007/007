@@ -100,7 +100,7 @@ footer {
     box-shadow: 5px 5px 10px rgba (4, 4, 114, 0.5);
 }
 #NAME="Verzenden"{
-    width: 100px;
+    width: 80px;
     height: 80px;
 }
 input[type="text"], input[type="email"], textarea, select, button{

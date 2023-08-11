@@ -1,3 +1,7 @@
+.row [class^="col-md-"] img {
+    width: 100%;
+    margin: 5px;
+}
 .navbar {
     background-color: #418f11;
     border-radius: 10px;

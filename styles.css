@@ -25,23 +25,17 @@
     box-shadow: 5px 5px 20px  rgba(3, 3, 114, 0.3); 
 }
 @media (max-width: 576px) {
-    .form-group label{
+    .form-group label {
         text-align: center;
         width: 100%;
     }
-    .form-group button {
-        font-size: 14px;
-        padding: 5px 10px;
-    .form-group input#name {
-    width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
-}
- .form-group label,
+
     .form-group input,
-    .form-group textarea,
-    .form-group button {
-        text-align: center;
+    .form-group textarea 
+    .form-group: button{
+        margin: 0 auto;
+        display: block;
         width: 100%;
-        margin: auto;
     }
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -135,7 +129,11 @@ input[type="text"], input[type="email"], textarea, select, button{
     margin: 20px;
     padding: 20px;
   }
-#name {
+  ,div class="form-group"{
+    padding: 75%;
+    margin: 10px;
+  }
+ #name {
     width: 75%;
     position: center;
 }
@@ -146,12 +144,6 @@ position: center;
 #Bericht{
 width: 75%;
 position: center;
-}
-.col-md-4 img {
-    width: 30%; /* Afbeeldingen worden 100% breedte van de kolom */
-    height: auto; /* Behoudt de juiste beeldverhouding */
-    display: block; /* Voorkomt extra verticale ruimte onder de afbeelding */
-    margin-bottom: 10px; /* Voeg wat ruimte toe tussen de afbeeldingen */
 }
 /* Aangepaste stijlen voor de tekstvakken in het accordeon */
 .accordion-button b {
@@ -177,3 +169,4 @@ position: center;
     border: 1px solid #ccc; /* Kaderkleur en -dikte */
     padding: 10px; /* Ruimte binnen het kader */
     border-radius: 5px; /* Afgeronde hoeken van het kader */
+}

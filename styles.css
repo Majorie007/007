@@ -52,10 +52,11 @@ position: center;
 width: 75%;
 position: center;
 }
-#Verzenden{
-width: 75%;
-}    
-}
+#Verzenden {
+    width: 100px; /* Pas de breedte aan zoals gewenst */
+    height: 30px; /* Pas de hoogte aan zoals gewenst */
+    font-size: 14px; /* Pas de lettergrootte aan zoals gewenst */
+}   
 .navbar-dark .navbar-nav .nav-link {
     color: #ffffff; /* Tekstkleur van de knoppen */
     border: 2px solid transparent; /* Voeg een transparante rand toe */

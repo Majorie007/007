@@ -20,18 +20,6 @@
     background-color: #2084b1; 
     border-color: #2f11d4;
 }
-
-.center {
-  line-height: 200px;
-  height: 200px;
-  border: 3px solid green;
-  text-align: center;
-}
-.center p {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
 .img-fluid {
     padding: 5px;
     box-shadow: 5px 5px 20px  rgba(3, 3, 114, 0.3); 

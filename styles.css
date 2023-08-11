@@ -29,14 +29,19 @@
         text-align: center;
         width: 100%;
     }
+    .form-group button {
+        font-size: 14px;
+        padding: 5px 10px;
     .form-group input#name {
     width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
 }
-     .form-group input,
-    .form-group textarea{
-        margin: 0 auto;
-        display: block;
+ .form-group label,
+    .form-group input,
+    .form-group textarea,
+    .form-group button {
+        text-align: center;
         width: 100%;
+        margin: auto;
     }
 }
 .navbar-dark .navbar-nav .nav-link {

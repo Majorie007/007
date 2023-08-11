@@ -36,10 +36,10 @@
         display: block;
         width: 100%;
     }
-    #Name {
+    #name {
     width: 75%; /* Pas dit aan naar de gewenste breedte, bijvoorbeeld 50% */
 }
-#Email{
+#email{
 width: 75%;
 }
 #Bericht{
